@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  tgbot:
+    build:
+       context: ./
+    expose:
+      - 6969
